@@ -1,0 +1,3 @@
+# Starting ranges only. Lock exact installed versions after verification.
+fastapi>=0.115,<1
+uvicorn>=0.30,<1

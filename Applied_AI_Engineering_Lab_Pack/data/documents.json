@@ -1,0 +1,6 @@
+[
+  {"id":"A1","org":"A","text":"For a leaking tap, create an internal plumbing draft for review."},
+  {"id":"A2","org":"A","text":"Door concerns require the door location and a clear description."},
+  {"id":"A3","org":"A","text":"Internal drafts require human review before external communication."},
+  {"id":"B1","org":"B","text":"Leaking tap plumbing instructions belonging only to organization B."}
+]
