@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Morgan",
+    "email": "alex.morgan@example.com",
+    "phone": "403-555-0101"
+  },
+  {
+    "id": 2,
+    "name": "Jamie Morgan",
+    "email": "jamie.morgan@example.com",
+    "phone": "403-555-0102"
+  },
+  {
+    "id": 3,
+    "name": "Taylor Chen",
+    "email": "taylor.chen@example.com",
+    "phone": "403-555-0103"
+  },
+  {
+    "id": 4,
+    "name": "Jordan Patel",
+    "email": "jordan.patel@example.com",
+    "phone": "403-555-0104"
+  }
+]

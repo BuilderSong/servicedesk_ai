@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "property_id": 1,
+    "category": "plumbing",
+    "description": "Kitchen tap drips when turned off.",
+    "status": "open"
+  },
+  {
+    "id": 2,
+    "property_id": 1,
+    "category": "windows",
+    "description": "Main bedroom window is difficult to close.",
+    "status": "scheduled"
+  },
+  {
+    "id": 3,
+    "property_id": 2,
+    "category": "drywall",
+    "description": "Small drywall crack above the living room doorway.",
+    "status": "open"
+  },
+  {
+    "id": 4,
+    "property_id": 2,
+    "category": "electrical",
+    "description": "Kitchen outlet cover is loose.",
+    "status": "completed"
+  },
+  {
+    "id": 5,
+    "property_id": 3,
+    "category": "doors",
+    "description": "Front door rubs against the frame.",
+    "status": "open"
+  },
+  {
+    "id": 6,
+    "property_id": 3,
+    "category": "flooring",
+    "description": "Hallway floor squeaks near the bathroom.",
+    "status": "closed"
+  }
+]
