@@ -1,7 +1,7 @@
 from Applied_AI_Engineering_Lab_Pack.solutions.core import database
 import sqlite3
 
-def open_request(conn: sqlite3.Connection, property_id: int) -> tuple: # type: ignore
+def open_request(conn: sqlite3.Connection, property_id: int) -> list[tuple[int, str]]:
     """
     Retrieve open requests for a specific property from the database.
 
@@ -15,16 +15,14 @@ def open_request(conn: sqlite3.Connection, property_id: int) -> tuple: # type: i
     
     cursor = conn.cursor()
     query = """
-        SELECT * FROM requests
-        WHERE property_id = ? AND status = 'open'
+        SELECT id, text FROM requests
+        WHERE property_id = ? AND status = ?
     """
-    cursor.execute(query, (property_id,))
+    cursor.execute(query, (property_id, "open"))
     open_requests = cursor.fetchall()
     return open_requests
-
-
+            
 with database() as conn:
     property_id = 1  # Example property ID to filter requests
-    open_requests_list = open_request(conn, property_id)
-    print(f"Open requests for property ID {property_id}:", open_requests_list) 
+    print(open_request(conn, property_id))
     

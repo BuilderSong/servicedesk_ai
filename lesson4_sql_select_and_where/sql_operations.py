@@ -37,8 +37,8 @@ def main():
             ),
         ).fetchone()
 
-        request_id = new_request[0]
-        print("Created request:", request_id)
+        request_id = new_request[0] # type: ignore
+        print("Created request:", request_id) # type: ignore
 
         # UPDATE: change the request we just created.
         updated = conn.execute(
@@ -48,7 +48,7 @@ def main():
             WHERE id = %s
             RETURNING id, status;
             """,
-            ("scheduled", request_id),
+            ("scheduled", request_id), # type: ignore
         ).fetchone()
 
         print("Updated request:", updated)

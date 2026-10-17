@@ -1,6 +1,5 @@
 import json
 from pathlib import Path
-
 from postgresql import connect_database
 
 

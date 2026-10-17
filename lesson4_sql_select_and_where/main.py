@@ -7,7 +7,7 @@ def main():
             "SELECT current_database();"
         ).fetchone()
 
-        print("Connected to:", database_name[0])
+        print("Connected to:", database_name[0]) # type: ignore
 
         columns = conn.execute(
             """
