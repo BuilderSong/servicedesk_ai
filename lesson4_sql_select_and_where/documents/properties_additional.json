@@ -1,0 +1,112 @@
+[
+  {
+    "id": 4,
+    "address": "1004 Fictional Example Street NW, Calgary, AB",
+    "homeowner_ids": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": 5,
+    "address": "1005 Fictional Example Avenue NE, Calgary, AB",
+    "homeowner_ids": [
+      7
+    ]
+  },
+  {
+    "id": 6,
+    "address": "1006 Fictional Example Street SW, Calgary, AB",
+    "homeowner_ids": [
+      8,
+      9
+    ]
+  },
+  {
+    "id": 7,
+    "address": "1007 Fictional Example Avenue SE, Calgary, AB",
+    "homeowner_ids": [
+      10
+    ]
+  },
+  {
+    "id": 8,
+    "address": "1008 Fictional Example Street NW, Calgary, AB",
+    "homeowner_ids": [
+      11
+    ]
+  },
+  {
+    "id": 9,
+    "address": "1009 Fictional Example Avenue NE, Calgary, AB",
+    "homeowner_ids": [
+      12,
+      13
+    ]
+  },
+  {
+    "id": 10,
+    "address": "1010 Fictional Example Street SW, Calgary, AB",
+    "homeowner_ids": [
+      14
+    ]
+  },
+  {
+    "id": 11,
+    "address": "1011 Fictional Example Avenue SE, Calgary, AB",
+    "homeowner_ids": [
+      15
+    ]
+  },
+  {
+    "id": 12,
+    "address": "1012 Fictional Example Street NW, Calgary, AB",
+    "homeowner_ids": [
+      16,
+      17
+    ]
+  },
+  {
+    "id": 13,
+    "address": "1013 Fictional Example Avenue NE, Calgary, AB",
+    "homeowner_ids": [
+      18
+    ]
+  },
+  {
+    "id": 14,
+    "address": "1014 Fictional Example Street SW, Calgary, AB",
+    "homeowner_ids": [
+      19
+    ]
+  },
+  {
+    "id": 15,
+    "address": "1015 Fictional Example Avenue SE, Calgary, AB",
+    "homeowner_ids": [
+      20
+    ]
+  },
+  {
+    "id": 16,
+    "address": "1016 Fictional Example Street NW, Calgary, AB",
+    "homeowner_ids": [
+      21
+    ]
+  },
+  {
+    "id": 17,
+    "address": "1017 Fictional Example Avenue NE, Calgary, AB",
+    "homeowner_ids": [
+      22
+    ]
+  },
+  {
+    "id": 18,
+    "address": "1018 Fictional Example Street SW, Calgary, AB",
+    "homeowner_ids": [
+      23,
+      24
+    ]
+  }
+]

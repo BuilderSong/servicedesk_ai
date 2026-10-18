@@ -6,18 +6,17 @@ from postgresql import connect_database
 DATA_FOLDER = Path(__file__).parent / "documents"
 
 
-def read_json(filename):
-    file_path = DATA_FOLDER / filename
+def read_json(filename): # type: ignore
+    file_path = DATA_FOLDER / filename # type: ignore
+    with file_path.open(encoding="utf-8") as file: # type: ignore
+        return json.load(file) # type: ignore
 
-    with file_path.open(encoding="utf-8") as file:
-        return json.load(file)
 
-
-def insert_homeowners(conn, homeowners):
+def insert_homeowners(conn, homeowners): # type: ignore
     homeowner_id_map = {}
 
-    for homeowner in homeowners:
-        row = conn.execute(
+    for homeowner in homeowners: # type: ignore
+        row = conn.execute( # type: ignore
             """
             INSERT INTO homeowners (name, email, phone)
             VALUES (%s, %s, %s)
@@ -32,20 +31,20 @@ def insert_homeowners(conn, homeowners):
 
         homeowner_id_map[homeowner["id"]] = row[0]
 
-    return homeowner_id_map
+    return homeowner_id_map # type: ignore
 
 
-def insert_properties(conn, properties, homeowner_id_map):
+def insert_properties(conn, properties, homeowner_id_map): # type: ignore
     property_id_map = {}
 
-    for property_record in properties:
+    for property_record in properties: # type: ignore
         # Translate JSON homeowner IDs into actual database IDs.
-        homeowner_ids = [
+        homeowner_ids = [ # type: ignore
             homeowner_id_map[sample_id]
-            for sample_id in property_record["homeowner_ids"]
+            for sample_id in property_record["homeowner_ids"] # type: ignore
         ]
 
-        row = conn.execute(
+        row = conn.execute( # type: ignore
             """
             INSERT INTO properties (address, homeowner_ids)
             VALUES (%s, %s)
@@ -59,15 +58,15 @@ def insert_properties(conn, properties, homeowner_id_map):
 
         property_id_map[property_record["id"]] = row[0]
 
-    return property_id_map
+    return property_id_map # type: ignore
 
 
-def insert_requests(conn, requests, property_id_map):
-    for request in requests:
+def insert_requests(conn, requests, property_id_map): # type: ignore
+    for request in requests: # type: ignore
         # Translate the JSON property ID into its database ID.
-        property_id = property_id_map[request["property_id"]]
+        property_id = property_id_map[request["property_id"]] # type: ignore
 
-        conn.execute(
+        conn.execute( # type: ignore
             """
             INSERT INTO warranty_requests (
                 property_id,
@@ -91,17 +90,11 @@ def main():
     properties = read_json("properties.json")
     requests = read_json("warranty_requests.json")
     
-    print(homeowners)
-    print(properties)
-    print(requests)
-
     # All inserts belong to one transaction.
     with connect_database() as conn:
-        homeowner_id_map = insert_homeowners(conn, homeowners)
+        homeowner_id_map = insert_homeowners(conn, homeowners) # type: ignore
         
-        print(homeowner_id_map)
-
-        property_id_map = insert_properties(
+        property_id_map = insert_properties( # type: ignore
             conn,
             properties,
             homeowner_id_map,

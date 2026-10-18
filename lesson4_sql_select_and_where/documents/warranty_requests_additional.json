@@ -1,0 +1,422 @@
+[
+  {
+    "id": 7,
+    "property_id": 4,
+    "category": "plumbing",
+    "description": "Kitchen tap leaks around the base.",
+    "status": "open"
+  },
+  {
+    "id": 8,
+    "property_id": 4,
+    "category": "windows",
+    "description": "Bedroom window latch does not engage.",
+    "status": "scheduled"
+  },
+  {
+    "id": 9,
+    "property_id": 4,
+    "category": "drywall",
+    "description": "Hairline crack above the bedroom door.",
+    "status": "completed"
+  },
+  {
+    "id": 10,
+    "property_id": 4,
+    "category": "electrical",
+    "description": "Bedroom switch plate is loose.",
+    "status": "closed"
+  },
+  {
+    "id": 11,
+    "property_id": 5,
+    "category": "doors",
+    "description": "Front door rubs against the threshold.",
+    "status": "scheduled"
+  },
+  {
+    "id": 12,
+    "property_id": 5,
+    "category": "flooring",
+    "description": "Hallway flooring squeaks near the stairs.",
+    "status": "completed"
+  },
+  {
+    "id": 13,
+    "property_id": 5,
+    "category": "plumbing",
+    "description": "Bathroom sink drains slowly.",
+    "status": "closed"
+  },
+  {
+    "id": 14,
+    "property_id": 5,
+    "category": "windows",
+    "description": "Living room window is difficult to open.",
+    "status": "open"
+  },
+  {
+    "id": 15,
+    "property_id": 6,
+    "category": "drywall",
+    "description": "Nail pop is visible on the hallway ceiling.",
+    "status": "completed"
+  },
+  {
+    "id": 16,
+    "property_id": 6,
+    "category": "electrical",
+    "description": "Kitchen outlet cover is cracked.",
+    "status": "closed"
+  },
+  {
+    "id": 17,
+    "property_id": 6,
+    "category": "doors",
+    "description": "Bedroom door does not latch.",
+    "status": "open"
+  },
+  {
+    "id": 18,
+    "property_id": 6,
+    "category": "flooring",
+    "description": "Small gap between living room floor planks.",
+    "status": "scheduled"
+  },
+  {
+    "id": 19,
+    "property_id": 7,
+    "category": "plumbing",
+    "description": "Toilet continues running after flushing.",
+    "status": "closed"
+  },
+  {
+    "id": 20,
+    "property_id": 7,
+    "category": "windows",
+    "description": "Basement window screen has a tear.",
+    "status": "open"
+  },
+  {
+    "id": 21,
+    "property_id": 7,
+    "category": "drywall",
+    "description": "Drywall seam is visible in the living room.",
+    "status": "scheduled"
+  },
+  {
+    "id": 22,
+    "property_id": 7,
+    "category": "electrical",
+    "description": "Hallway light flickers intermittently.",
+    "status": "completed"
+  },
+  {
+    "id": 23,
+    "property_id": 8,
+    "category": "doors",
+    "description": "Closet door slides off the bottom guide.",
+    "status": "open"
+  },
+  {
+    "id": 24,
+    "property_id": 8,
+    "category": "flooring",
+    "description": "Carpet edge is loose at the bedroom doorway.",
+    "status": "scheduled"
+  },
+  {
+    "id": 25,
+    "property_id": 8,
+    "category": "plumbing",
+    "description": "Water drips from the laundry shutoff valve.",
+    "status": "completed"
+  },
+  {
+    "id": 26,
+    "property_id": 8,
+    "category": "windows",
+    "description": "Draft is noticeable around the kitchen window.",
+    "status": "closed"
+  },
+  {
+    "id": 27,
+    "property_id": 9,
+    "category": "drywall",
+    "description": "Small crack at the stairwell wall corner.",
+    "status": "scheduled"
+  },
+  {
+    "id": 28,
+    "property_id": 9,
+    "category": "electrical",
+    "description": "Bathroom exhaust fan does not start.",
+    "status": "completed"
+  },
+  {
+    "id": 29,
+    "property_id": 9,
+    "category": "doors",
+    "description": "Garage entry door weatherstripping is loose.",
+    "status": "closed"
+  },
+  {
+    "id": 30,
+    "property_id": 9,
+    "category": "flooring",
+    "description": "Kitchen floor transition strip is lifting.",
+    "status": "open"
+  },
+  {
+    "id": 31,
+    "property_id": 10,
+    "category": "plumbing",
+    "description": "Shower handle is loose.",
+    "status": "completed"
+  },
+  {
+    "id": 32,
+    "property_id": 10,
+    "category": "windows",
+    "description": "Window trim has a small gap at the corner.",
+    "status": "closed"
+  },
+  {
+    "id": 33,
+    "property_id": 10,
+    "category": "drywall",
+    "description": "Drywall screw head is visible in the office.",
+    "status": "open"
+  },
+  {
+    "id": 34,
+    "property_id": 10,
+    "category": "electrical",
+    "description": "Garage light switch does not operate the light.",
+    "status": "scheduled"
+  },
+  {
+    "id": 35,
+    "property_id": 11,
+    "category": "doors",
+    "description": "Bathroom door hinge squeaks.",
+    "status": "closed"
+  },
+  {
+    "id": 36,
+    "property_id": 11,
+    "category": "flooring",
+    "description": "Basement flooring has a raised edge.",
+    "status": "open"
+  },
+  {
+    "id": 37,
+    "property_id": 11,
+    "category": "plumbing",
+    "description": "Kitchen tap leaks around the base.",
+    "status": "scheduled"
+  },
+  {
+    "id": 38,
+    "property_id": 11,
+    "category": "windows",
+    "description": "Bedroom window latch does not engage.",
+    "status": "completed"
+  },
+  {
+    "id": 39,
+    "property_id": 12,
+    "category": "drywall",
+    "description": "Hairline crack above the bedroom door.",
+    "status": "open"
+  },
+  {
+    "id": 40,
+    "property_id": 12,
+    "category": "electrical",
+    "description": "Bedroom switch plate is loose.",
+    "status": "scheduled"
+  },
+  {
+    "id": 41,
+    "property_id": 12,
+    "category": "doors",
+    "description": "Front door rubs against the threshold.",
+    "status": "completed"
+  },
+  {
+    "id": 42,
+    "property_id": 12,
+    "category": "flooring",
+    "description": "Hallway flooring squeaks near the stairs.",
+    "status": "closed"
+  },
+  {
+    "id": 43,
+    "property_id": 13,
+    "category": "plumbing",
+    "description": "Bathroom sink drains slowly.",
+    "status": "scheduled"
+  },
+  {
+    "id": 44,
+    "property_id": 13,
+    "category": "windows",
+    "description": "Living room window is difficult to open.",
+    "status": "completed"
+  },
+  {
+    "id": 45,
+    "property_id": 13,
+    "category": "drywall",
+    "description": "Nail pop is visible on the hallway ceiling.",
+    "status": "closed"
+  },
+  {
+    "id": 46,
+    "property_id": 13,
+    "category": "electrical",
+    "description": "Kitchen outlet cover is cracked.",
+    "status": "open"
+  },
+  {
+    "id": 47,
+    "property_id": 14,
+    "category": "doors",
+    "description": "Bedroom door does not latch.",
+    "status": "completed"
+  },
+  {
+    "id": 48,
+    "property_id": 14,
+    "category": "flooring",
+    "description": "Small gap between living room floor planks.",
+    "status": "closed"
+  },
+  {
+    "id": 49,
+    "property_id": 14,
+    "category": "plumbing",
+    "description": "Toilet continues running after flushing.",
+    "status": "open"
+  },
+  {
+    "id": 50,
+    "property_id": 14,
+    "category": "windows",
+    "description": "Basement window screen has a tear.",
+    "status": "scheduled"
+  },
+  {
+    "id": 51,
+    "property_id": 15,
+    "category": "drywall",
+    "description": "Drywall seam is visible in the living room.",
+    "status": "closed"
+  },
+  {
+    "id": 52,
+    "property_id": 15,
+    "category": "electrical",
+    "description": "Hallway light flickers intermittently.",
+    "status": "open"
+  },
+  {
+    "id": 53,
+    "property_id": 15,
+    "category": "doors",
+    "description": "Closet door slides off the bottom guide.",
+    "status": "scheduled"
+  },
+  {
+    "id": 54,
+    "property_id": 15,
+    "category": "flooring",
+    "description": "Carpet edge is loose at the bedroom doorway.",
+    "status": "completed"
+  },
+  {
+    "id": 55,
+    "property_id": 16,
+    "category": "plumbing",
+    "description": "Water drips from the laundry shutoff valve.",
+    "status": "open"
+  },
+  {
+    "id": 56,
+    "property_id": 16,
+    "category": "windows",
+    "description": "Draft is noticeable around the kitchen window.",
+    "status": "scheduled"
+  },
+  {
+    "id": 57,
+    "property_id": 16,
+    "category": "drywall",
+    "description": "Small crack at the stairwell wall corner.",
+    "status": "completed"
+  },
+  {
+    "id": 58,
+    "property_id": 16,
+    "category": "electrical",
+    "description": "Bathroom exhaust fan does not start.",
+    "status": "closed"
+  },
+  {
+    "id": 59,
+    "property_id": 17,
+    "category": "doors",
+    "description": "Garage entry door weatherstripping is loose.",
+    "status": "scheduled"
+  },
+  {
+    "id": 60,
+    "property_id": 17,
+    "category": "flooring",
+    "description": "Kitchen floor transition strip is lifting.",
+    "status": "completed"
+  },
+  {
+    "id": 61,
+    "property_id": 17,
+    "category": "plumbing",
+    "description": "Shower handle is loose.",
+    "status": "closed"
+  },
+  {
+    "id": 62,
+    "property_id": 17,
+    "category": "windows",
+    "description": "Window trim has a small gap at the corner.",
+    "status": "open"
+  },
+  {
+    "id": 63,
+    "property_id": 18,
+    "category": "drywall",
+    "description": "Drywall screw head is visible in the office.",
+    "status": "completed"
+  },
+  {
+    "id": 64,
+    "property_id": 18,
+    "category": "electrical",
+    "description": "Garage light switch does not operate the light.",
+    "status": "closed"
+  },
+  {
+    "id": 65,
+    "property_id": 18,
+    "category": "doors",
+    "description": "Bathroom door hinge squeaks.",
+    "status": "open"
+  },
+  {
+    "id": 66,
+    "property_id": 18,
+    "category": "flooring",
+    "description": "Basement flooring has a raised edge.",
+    "status": "scheduled"
+  }
+]
