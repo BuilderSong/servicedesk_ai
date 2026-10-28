@@ -1,5 +1,5 @@
 import psycopg
-from postgresql import connect_database
+from lesson4_sql_select_and_where.postgresql import connect_database
 
 
 def get_open_requests(

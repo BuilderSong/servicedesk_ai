@@ -1,4 +1,4 @@
-import getpass
+#import getpass
 import psycopg
 from pathlib import Path
 from dotenv import load_dotenv
@@ -11,14 +11,14 @@ load_dotenv(env_path)
 # print(env_path)
 
 def connect_database():
-    password = getpass.getpass("PostgreSQL password: ")
+    #password = getpass.getpass("PostgreSQL password: ")
 
     return psycopg.connect(
         host=os.getenv("db_host"),
         port=os.getenv("db_port"),
         dbname=os.getenv("db_name"),
         user=os.getenv("db_user"),
-        password=password,
+        password=os.getenv("db_password"),
     )
     
     
